@@ -8,6 +8,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+
+
 int power(int x,int y)
 {
     if(y==0)
@@ -23,6 +25,7 @@ int power(int x,int y)
 int main()
 {
     int i,j,t,n;
+int k;
     long int x;
     scanf("%d",&t);
     int b[32];
