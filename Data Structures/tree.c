@@ -31,16 +31,6 @@ void insert()
     {
         root = temp;
     }
-  /*  else
-    if(root->left == NULL && root->id > temp->id)
-    {
-        root->left = temp;
-    }
-    else
-    if(root->right == NULL && root->id < temp->id)
-    {
-        root->right = temp;
-    }*/
     else
     if(temp->id < root->id)
     {
